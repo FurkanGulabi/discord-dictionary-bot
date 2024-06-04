@@ -1,0 +1,35 @@
+# Node.js klasörleri ve dosyaları
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Geliştirme ortamı klasörleri
+.DS_Store
+.idea/
+.vscode/
+.env
+
+# Log dosyaları
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Üretilmiş dosyalar
+dist/
+build/
+tmp/
+temp/
+
+# Sistem dosyaları
+Thumbs.db
+*.swp
+
+# Çeşitli editör dosyaları
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# .env dosyası, hassas bilgiler içerdiğinden genellikle izlenmez
